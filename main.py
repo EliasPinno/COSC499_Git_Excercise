@@ -12,11 +12,13 @@ def sortListReversed(l) -> list:
     return sorted(l, reverse=True)
 
 if __name__ =="__main__":
-    print("Enter your array, with each value seperated by spaces.")
+    print("Enter your array: with each value seperated by spaces.")
     strInput = input()
     l = getListFromInput(strInput)
+    # Sort forward
     lSorted = sortList(l)
     print(lSorted)
+    # Sort backward
     lSortedReverse = sortListReversed(l)
     print(lSortedReverse)
     
