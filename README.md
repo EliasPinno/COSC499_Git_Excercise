@@ -6,3 +6,6 @@ This project is capable of taking in user input and putting it into a list.
 
 # Second feature: sorting an array and displaying it to the user
 This project can now sort the provided input and display it to the user
+
+# Third feature: include the list sorted in reverse
+This project now also displays the sorted array in reverse order

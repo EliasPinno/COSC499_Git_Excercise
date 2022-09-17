@@ -19,5 +19,11 @@ class TestMethods(unittest.TestCase):
     def test_LSortedRepeats(self):
         self.assertCountEqual(main.sortList([45,45,10,45]),[10,45,45,45])
 
+    def test_LSortedReverseStandard(self):
+        self.assertCountEqual(main.sortList([287,45,360,20]),[360,287,45,20])
+        
+    def test_LSortedReverseRepeats(self):
+        self.assertCountEqual(main.sortList([45,45,10,45]),[45,45,45,10])
+
 if __name__ == '__main__':
     unittest.main()
