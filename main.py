@@ -5,8 +5,16 @@ def getListFromInput(strInput) -> list:
     l = list(map(int,strInput.split(' '))) 
     return(l)
 
+def sortList(l) -> list:
+    return sorted(l)
+
 if __name__ =="__main__":
     print("Enter your array, with each value seperated by spaces.")
     strInput = input()
-    getListFromInput(strInput)
+    l = getListFromInput(strInput)
+    lSorted = sorted(l)
+    print(lSorted)
+    
+
+
 
