@@ -8,12 +8,17 @@ def getListFromInput(strInput) -> list:
 def sortList(l) -> list:
     return sorted(l)
 
+def sortListReversed(l) -> list:
+    return sorted(l, reverse=True)
+
 if __name__ =="__main__":
     print("Enter your array, with each value seperated by spaces.")
     strInput = input()
     l = getListFromInput(strInput)
-    lSorted = sorted(l)
+    lSorted = sortList(l)
     print(lSorted)
+    lSortedReverse = sortListReversed(l)
+    print(lSortedReverse)
     
 
 
